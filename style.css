@@ -1,0 +1,166 @@
+/*NAVIGABTION BAR*/
+.navigation {
+    background-color: black;
+    width: 100%;
+  }
+  
+  .navigation li {
+    float: left;
+    list-style: none;
+    display: inline;
+  }
+  
+  .navigation ul {
+    overflow-x: auto;
+    overflow-y: auto;
+    width: 100%;
+    margin: 0;
+    padding: 10px;
+  }
+  
+  .navigation ul li a {
+    color: lightgrey;
+    text-decoration: none;
+    padding: 15px;
+  }
+  
+  .navigation ul li a:hover {
+    color: chocolate;
+  }
+  
+  .navigation {
+    background-position-x: center;
+  }
+  
+  .navigation {
+    position: static;
+  }
+  .navigation {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  body {
+    background: rgb(182, 183, 183);
+    width: auto;
+  }
+  
+  /*HEADERS*/
+  h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 0px;
+    color: rgb(74, 73, 73);
+  }
+  
+  
+  
+  h2 {
+    color: rgb(88, 77, 175);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 26px;
+    font-weight:bolder;
+    margin-bottom: 4px;
+    margin-top: 30px;
+    margin-left: 25%;
+    margin-right: 25%;
+    text-align: center;
+  }
+  
+  h3 {
+    color: rgb(0, 56, 0);
+  }
+  
+  h3 {
+    margin-bottom: 0;
+    margin: 0;
+    padding-bottom: 0;
+  }
+  
+  p {
+    margin-top: 0px;
+    margin-bottom: 2px;
+  }
+  
+  /*FORMS*/
+  
+  
+  .flex-container {
+    display: flex;
+    height: max-content;
+    width: max-content;
+    flex-direction: column;
+    background-color: rgb(34, 33, 33);
+    color: antiquewhite;
+    padding-top: 0px;
+    padding: 50px;
+    position:absolute;
+    align-items: center;
+    margin-left: 10%;
+    justify-content: center;
+    
+  
+  }
+  
+  #button {
+    padding-inline: 10px;
+    margin-bottom: 20px;
+    margin-left: 42%;
+  }
+  
+  #button:hover {
+    background-color: midnightblue;
+    color: antiquewhite;
+  }
+  
+  #message {
+    width: 250px;
+    height: 120px;
+    vertical-align: top;
+    margin-inline: 25px;
+    margin-bottom: 20px;
+    padding-right: 0px;
+  }
+  
+  #first-name {
+    margin-bottom: 20px;
+    margin-inline: 11px;
+    width: 240px;
+  }
+  
+  #last-name {
+    margin-bottom: 20px;
+    margin-inline: 11px;
+    width: 240px;
+  }
+  
+  #email {
+    margin-bottom: 20px;
+    margin-inline: 48px;
+    width: 240px;
+  }
+  
+  #phone {
+    margin-bottom: 20px;
+    margin-inline: 42px;
+    width: 240px;
+  }
+  
+  label {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  /*IMAGES AND GRAPHICS*/
+  .jmandkids {
+    float: right;
+    margin-inline-start: auto;
+  }
+  
+  .jmlogo {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
+  img {
+    max-height: 100px;
+    padding-top: 30px;
+  }
